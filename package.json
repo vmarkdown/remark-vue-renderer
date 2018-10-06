@@ -1,0 +1,44 @@
+{
+  "name": "remark-vue-renderer",
+  "version": "0.0.1",
+  "description": "vue renderer for remark-render",
+  "scripts": {
+    "dev": "webpack-dev-server --config ./examples/webpack.config.js",
+    "pub": "npm publish .",
+    "test": "mocha test/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vmarkdown/remark-vue-renderer.git"
+  },
+  "keywords": [
+    "markdown",
+    "remark",
+    "vdom",
+    "virtual-dom",
+    "vue",
+    "renderer"
+  ],
+  "main": "index.js",
+  "files": [
+    "src"
+  ],
+  "author": "yucopowo@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vmarkdown/remark-vue-renderer/issues"
+  },
+  "homepage": "https://github.com/vmarkdown/remark-vue-renderer#readme",
+  "devDependencies": {
+    "remark-parse": "^5.0.0",
+    "remark-render": "^0.0.14",
+    "text-loader": "^0.0.1",
+    "unified": "^7.0.0",
+    "webpack": "^4.17.2",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.9"
+  },
+  "dependencies": {
+    "merge": "^1.2.0"
+  }
+}
