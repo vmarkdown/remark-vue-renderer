@@ -1,6 +1,6 @@
 {
   "name": "remark-vue-renderer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "vue renderer for remark-render",
   "scripts": {
     "dev": "webpack-dev-server --config ./examples/webpack.config.js",
@@ -31,7 +31,7 @@
   "homepage": "https://github.com/vmarkdown/remark-vue-renderer#readme",
   "devDependencies": {
     "remark-parse": "^5.0.0",
-    "remark-render": "^0.0.14",
+    "remark-render": "^0.0.15",
     "text-loader": "^0.0.1",
     "unified": "^7.0.0",
     "webpack": "^4.17.2",

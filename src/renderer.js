@@ -42,8 +42,10 @@ function props(node, defaultProps) {
 
 module.exports = {
 
-    root: function(h, node, children) {
-        return h(node.tagName||'div', props(node), children);
+    root: function(h, node, children, parent, options) {
+        // return h(node.tagName||'div', props(node), children);
+        var tagName = options.rootTagName || 'div';
+        return h(tagName, props(node, {'class':[options.rootClassName]}), children);
     },
 
     blockquote: function(h, node, children) {
